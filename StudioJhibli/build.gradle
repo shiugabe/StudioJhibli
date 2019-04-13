@@ -28,5 +28,8 @@ dependencies {
     
     // OKHttp
     implementation 'com.squareup.okhttp3:okhttp:3.14.1'
+    
+    // org.json - https://mvnrepository.com/artifact/org.json/json
+    compile group: 'org.json', name: 'json', version: '20180813'
 }
 

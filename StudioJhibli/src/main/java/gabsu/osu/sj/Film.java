@@ -4,7 +4,7 @@ import org.json.JSONObject;
 
 import gabsu.osu.util.FindFilmID;
 
-public class Films {
+public class Film {
 
     //private members ==================================================
     private JSONObject film;
@@ -18,7 +18,7 @@ public class Films {
 
     //Constructor ======================================================
 
-    public Films(String name) {
+    public Film(String name) {
         QueryBuilder query = new QueryBuilder(
                 "films/" + new FindFilmID().FindID(name));
         this.film = query.getSingleQuery();
